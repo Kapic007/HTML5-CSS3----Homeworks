@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Homework 3</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="wrapper flex__container">
+          <div class="header__top_left">
+            <div class="header__top_logo">
+              <img class="header__logo_image" src="images/logo.webp" alt="" />
+            </div>
+            <form class="header__search_form" action="#">
+              <input class="header__top_search" type="text" name="search" />
+            </form>
+          </div>
+          <div class="header__top_right">
+            <img
+              class="header__top_burger"
+              src="images/burger_menu.webp"
+              alt=""
+            />
+            <img
+              class="header__top_login"
+              src="images/login_menu.webp"
+              alt=""
+            />
+            <div class="header__basket_container">
+              <img class="header__top_basket" src="images/Basket.webp" alt="" />
+              <span class="basket__number">5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__main">
+        <div class="header__main_hover"></div>
+        <nav class="header__menu">
+          <span class="header__menu_close"
+            ><i class="fa fa-times" aria-hidden="true"></i
+          ></span>
+          <h3 class="header__menu_title">MENU</h3>
+          <ul class="header__menu_article">
+            <h5 class="heaeder__menu_sex">MAN</h5>
+            <li><a href="#" class="header__menu_item">Accessories</a></li>
+            <li><a href="#" class="header__menu_item">Bags</a></li>
+            <li><a href="#" class="header__menu_item">Denim</a></li>
+            <li><a href="#" class="header__menu_item">T-Shirts</a></li>
+          </ul>
+          <ul class="header__menu_article">
+            <h5 class="heaeder__menu_sex">WOMAN</h5>
+            <li><a href="#" class="header__menu_item">Accessories</a></li>
+            <li><a href="#" class="header__menu_item">Jackets & Coats</a></li>
+            <li><a href="#" class="header__menu_item">Polos</a></li>
+            <li><a href="#" class="header__menu_item">T-Shirts</a></li>
+            <li><a href="#" class="header__menu_item">Shirts</a></li>
+          </ul>
+          <ul class="header__menu_article">
+            <h5 class="heaeder__menu_sex">KIDS</h5>
+            <li><a href="#" class="header__menu_item">Accessories</a></li>
+            <li><a href="#" class="header__menu_item">Jackets & Coats</a></li>
+            <li><a href="#" class="header__menu_item">Polos</a></li>
+            <li><a href="#" class="header__menu_item">T-Shirts</a></li>
+            <li><a href="#" class="header__menu_item">Shirts</a></li>
+            <li><a href="#" class="header__menu_item">Bags</a></li>
+          </ul>
+        </nav>
+        <div class="wrapper flex__container">
+          <img
+            class="header__main_image"
+            src="images/main_model.webp"
+            alt="main_model"
+          />
+          <div class="flex__container brand">
+            <div class="header__main_text">
+              <h1 class="header__main_brand">THE BRAND</h1>
+              <p class="header__main_fashion">
+                OF LUXERIOUS <span class="red">FASHION</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="wrapper">
+      <section class="categories">
+        <div class="category__all_sex flex__container">
+          <div class="category_sex">
+            <img
+              src="images/category_women.webp"
+              alt="women"
+              class="category__image"
+            />
+            <div class="category__description">
+              <p class="category__text">30% OFF</p>
+              <h5 class="category__name">FOR WOMEN</h5>
+            </div>
+          </div>
+          <div class="category_sex">
+            <img
+              src="images/category_men.webp"
+              alt="men"
+              class="category__image"
+            />
+            <div class="category__description">
+              <p class="category__text">HOT DEAL</p>
+              <h5 class="category__name">FOR MEN</h5>
+            </div>
+          </div>
+          <div class="category_sex">
+            <img
+              src="images/category_kids.webp"
+              alt="kid"
+              class="category__image"
+            />
+            <div class="category__description">
+              <p class="category__text">NEW ARRIVALS</p>
+              <h5 class="category__name">FOR KIDS</h5>
+            </div>
+          </div>
+        </div>
+        <div class="category__accesories flex__container">
+          <img
+            src="images/category_accesories.webp"
+            alt="accesories"
+            class="category__image accesories__image"
+          />
+          <div class="category__description">
+            <p class="category__text">LUXIROUS & TRENDY</p>
+            <h5 class="category__name">ACCESORIES</h5>
+          </div>
+        </div>
+      </section>
+      <section class="fetured__items">
+        <h2 class="items__header">Fetured Items</h2>
+        <p class="items__header_text">
+          Shop for items based on what we featured in this week
+        </p>
+        <div class="flex__container">
+          <figure class="item__card">
+            <div class="image__card_container">
+              <img class="card__image" src="images/card1.webp" alt="card1" />
+              <img
+                class="card__image_hover"
+                src="images/hover_card.webp"
+                alt="hover_card"
+              />
+              <span class="card__button_basket">Add to Cart</span>
+            </div>
+            <figcaption class="card__text">
+              <h5 class="card__header">ELLERY X M'O CAPSULE</h5>
+              <p class="card__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card__price">$52.00</p>
+            </figcaption>
+          </figure>
+          <figure class="item__card">
+            <div class="image__card_container">
+              <img class="card__image" src="images/card2.webp" alt="card2" />
+              <img
+                class="card__image_hover"
+                src="images/hover_card.webp"
+                alt="hover_card"
+              />
+              <span class="card__button_basket">Add to Cart</span>
+            </div>
+            <figcaption class="card__text">
+              <h5 class="card__header">ELLERY X M'O CAPSULE</h5>
+              <p class="card__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card__price">$52.00</p>
+            </figcaption>
+          </figure>
+          <figure class="item__card">
+            <div class="image__card_container">
+              <img class="card__image" src="images/card3.webp" alt="card3" />
+              <img
+                class="card__image_hover"
+                src="images/hover_card.webp"
+                alt="hover_card"
+              />
+              <span class="card__button_basket">Add to Cart</span>
+            </div>
+            <figcaption class="card__text">
+              <h5 class="card__header">ELLERY X M'O CAPSULE</h5>
+              <p class="card__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card__price">$52.00</p>
+            </figcaption>
+          </figure>
+          <figure class="item__card">
+            <div class="image__card_container">
+              <img class="card__image" src="images/card4.webp" alt="card4" />
+              <img
+                class="card__image_hover"
+                src="images/hover_card.webp"
+                alt="hover_card"
+              />
+              <span class="card__button_basket">Add to Cart</span>
+            </div>
+            <figcaption class="card__text">
+              <h5 class="card__header">ELLERY X M'O CAPSULE</h5>
+              <p class="card__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card__price">$52.00</p>
+            </figcaption>
+          </figure>
+          <figure class="item__card">
+            <div class="image__card_container">
+              <img class="card__image" src="images/card5.webp" alt="card5" />
+              <img
+                class="card__image_hover"
+                src="images/hover_card.webp"
+                alt="hover_card"
+              />
+              <span class="card__button_basket">Add to Cart</span>
+            </div>
+            <figcaption class="card__text">
+              <h5 class="card__header">ELLERY X M'O CAPSULE</h5>
+              <p class="card__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card__price">$52.00</p>
+            </figcaption>
+          </figure>
+          <figure class="item__card">
+            <div class="image__card_container">
+              <img class="card__image" src="images/card6.webp" alt="card6" />
+              <img
+                class="card__image_hover"
+                src="images/hover_card.webp"
+                alt="hover_card"
+              />
+              <span class="card__button_basket">Add to Cart</span>
+            </div>
+            <figcaption class="card__text">
+              <h5 class="card__header">ELLERY X M'O CAPSULE</h5>
+              <p class="card__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card__price">$52.00</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex__center">
+          <a href="#" class="button__all_product"> Browse All Product </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="wrapper flex__container">
+          <div class="delivery__block">
+            <img
+              class="delivery_icon"
+              src="images/delivery_car.webp"
+              alt="car"
+            />
+            <h5 class="delivery__header">Free Delivery</h5>
+            <p class="delivery__description">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+          <div class="delivery__block">
+            <img
+              class="delivery_icon"
+              src="images/delivery_discount.webp"
+              alt="car"
+            />
+            <h5 class="delivery__header">Sales & discounts</h5>
+            <p class="delivery__description">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+          <div class="delivery__block">
+            <img
+              class="delivery_icon"
+              src="images/delivery_crown.webp"
+              alt="car"
+            />
+            <h5 class="delivery__header">Quality assurance</h5>
+            <p class="delivery__description">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__middle">
+        <div class="wrapper flex__container">
+          <div class="subscribe__block">
+            <img
+              class="subscribe__image"
+              src="images/subscribe_avatar.webp"
+              alt="avatar"
+            />
+            <p class="subscribe__comment">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+              <span class="comment__italic_style"
+                >a pulvinar purus condimentum</span
+              >
+              “
+            </p>
+          </div>
+          <div class="subscribe__block">
+            <h5 class="subscribe__header">SUBSCRIBE</h5>
+            <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form action="#" class="subscribe__form">
+              <input type="email" placeholder="Enter Your Email" /><input
+                type="submit"
+                value="Subscribe"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="wrapper flex__container">
+          <p class="copyright">© 2021 Brand All Rights Reserved.</p>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/" class="social__icon"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/" class="social__icon"
+              ><i class="fa fa-instagram" aria-hidden="true"></i></a
+            ><a href="https://www.pinterest.com/" class="social__icon"
+              ><i class="fa fa-pinterest-p" aria-hidden="true"></i></a
+            ><a href="https://twitter.com/" class="social__icon"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
