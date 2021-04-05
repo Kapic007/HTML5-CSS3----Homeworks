@@ -25,6 +25,7 @@ font-family: 'Roboto', sans-serif; */
   background-image: url("images/header_background_1.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  transition: background-image 1s ease 0s;
 }
 .header__top {
   align-items: center;
